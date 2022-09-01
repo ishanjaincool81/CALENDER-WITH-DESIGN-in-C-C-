@@ -11,6 +11,8 @@ void printSpace(int monthday , int *setD)
     for(i=1 ; i< monthday ; i++)
        {
             printf("    ");
+            // this is a sample change
+        
             fprintf(fp,"    ");
            ++(*setD);
        }
